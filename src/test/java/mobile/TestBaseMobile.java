@@ -30,7 +30,7 @@ public class TestBaseMobile {
     static void beforeAll() {
         Configuration.browser = LocalDriver.class.getName();
         if (isRemote) {
-            Configuration.browser = BrowserstackDriver.class.getName();
+        Configuration.browser = BrowserstackDriver.class.getName();
         }
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = null;
