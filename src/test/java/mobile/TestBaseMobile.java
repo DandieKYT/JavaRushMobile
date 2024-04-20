@@ -3,6 +3,7 @@ package mobile;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
+import mobile.config.BrowserstackConfig;
 import mobile.drivers.BrowserstackDriver;
 import mobile.drivers.LocalDriver;
 import mobile.steps.*;
@@ -10,13 +11,12 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import ui.config.WebConfig;
 
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestBaseMobile {
 
-    protected static WebConfig config = ConfigFactory.create(WebConfig.class, System.getProperties());
+    protected static BrowserstackConfig config = ConfigFactory.create(BrowserstackConfig.class, System.getProperties());
     static boolean isRemote = Boolean.parseBoolean(System.getProperty("isRemote", config.isRemote()));
     QuizStep quizStep = new QuizStep();
     CreateAccountStep createAccountStep = new CreateAccountStep();

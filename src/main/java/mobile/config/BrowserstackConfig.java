@@ -39,4 +39,8 @@ public interface BrowserstackConfig extends Config {
 
     @Key("loginKey")
     String getLoginKey();
+
+    @Key("false")
+    @DefaultValue("isRemote")
+    String isRemote();
 }
