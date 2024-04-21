@@ -26,6 +26,7 @@ public interface BrowserstackConfig extends Config {
     String osVersion();
 
     @Key("url")
+    @DefaultValue("http://hub.browserstack.com/wd/hub")
     String url();
 
     @Key("platformName")
@@ -39,4 +40,8 @@ public interface BrowserstackConfig extends Config {
 
     @Key("loginKey")
     String getLoginKey();
+
+    @Key("false")
+    @DefaultValue("isRemote")
+    String isRemote();
 }

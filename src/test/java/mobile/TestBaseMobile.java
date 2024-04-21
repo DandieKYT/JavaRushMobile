@@ -3,6 +3,7 @@ package mobile;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
+import mobile.config.BrowserstackConfig;
 import mobile.drivers.BrowserstackDriver;
 import mobile.drivers.LocalDriver;
 import mobile.steps.*;
@@ -28,13 +29,10 @@ public class TestBaseMobile {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.browser = LocalDriver.class.getName();
-        if (isRemote) {
-            Configuration.browser = BrowserstackDriver.class.getName();
-        }
+        Configuration.browser = BrowserstackDriver.class.getName();
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = null;
-        Configuration.timeout = 5000;
+        Configuration.timeout = 30000;
     }
 
     @BeforeEach
