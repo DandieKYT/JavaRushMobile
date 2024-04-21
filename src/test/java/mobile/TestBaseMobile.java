@@ -11,12 +11,13 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import ui.config.WebConfig;
 
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestBaseMobile {
 
-    protected static BrowserstackConfig config = ConfigFactory.create(BrowserstackConfig.class, System.getProperties());
+    protected static WebConfig config = ConfigFactory.create(WebConfig.class, System.getProperties());
     static boolean isRemote = Boolean.parseBoolean(System.getProperty("isRemote", config.isRemote()));
     QuizStep quizStep = new QuizStep();
     CreateAccountStep createAccountStep = new CreateAccountStep();
