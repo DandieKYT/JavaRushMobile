@@ -17,8 +17,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class TestBaseMobile {
 
-    protected static WebConfig config = ConfigFactory.create(WebConfig.class, System.getProperties());
-    static boolean isRemote = Boolean.parseBoolean(System.getProperty("isRemote", config.isRemote()));
+//    protected static WebConfig config = ConfigFactory.create(WebConfig.class, System.getProperties());
+//    static boolean isRemote = Boolean.parseBoolean(System.getProperty("isRemote", config.isRemote()));
     QuizStep quizStep = new QuizStep();
     CreateAccountStep createAccountStep = new CreateAccountStep();
     AuthorizationStep authorizationStep = new AuthorizationStep();
