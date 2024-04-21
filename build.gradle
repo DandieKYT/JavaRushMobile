@@ -98,13 +98,6 @@ test {
     useJUnitPlatform()
 }
 
-task UI(type: Test) {
-    useJUnitPlatform {
-        includeTags "UI"
-        maxParallelForks = 25
-    }
-}
-
 task Mobile(type: Test) {
     useJUnitPlatform {
         includeTags "Mobile"
