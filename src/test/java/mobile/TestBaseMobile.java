@@ -32,7 +32,7 @@ public class TestBaseMobile {
         Configuration.browser = BrowserstackDriver.class.getName();
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = null;
-        Configuration.timeout = 5000;
+        Configuration.timeout = 30000;
     }
 
     @BeforeEach
