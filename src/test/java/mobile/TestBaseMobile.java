@@ -31,9 +31,9 @@ public class TestBaseMobile {
     static void beforeAll() {
         Configuration.browser = BrowserstackDriver.class.getName();
         Configuration.pageLoadStrategy = "eager";
-        Configuration.baseUrl = config.url();
+        Configuration.baseUrl = config.remoteMobileUrl();
         Configuration.browserSize = null;
-        Configuration.timeout = 30000;
+        Configuration.timeout = 3000;
     }
 
     @BeforeEach
