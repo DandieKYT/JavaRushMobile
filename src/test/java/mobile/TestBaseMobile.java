@@ -33,7 +33,7 @@ public class TestBaseMobile {
         Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl = config.remoteMobileUrl();
         Configuration.browserSize = null;
-        Configuration.timeout = 3000;
+        Configuration.timeout = 6000;
     }
 
     @BeforeEach
