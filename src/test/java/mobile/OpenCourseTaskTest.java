@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-@Tag("Mobile")
+//@Tag("Mobile")
 @Story("Боковое меню")
 @Owner("Кудрявцев Даниил")
 @Feature("Автотесты для Mobile")

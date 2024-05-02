@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import static help.GenerationData.generationRandomText;
 
-@Tag("Mobile")
+//@Tag("Mobile")
 @Owner("Кудрявцев Даниил")
 @Feature("Автотесты для Mobile")
 @Story("Страница комментариев")

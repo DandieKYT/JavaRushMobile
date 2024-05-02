@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-@Tag("Mobile")
+//@Tag("Mobile")
 @Owner("Кудрявцев Даниил")
 @Story("Создание аккаунта")
 @Feature("Автотесты для Mobile")
