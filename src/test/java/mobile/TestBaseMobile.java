@@ -11,7 +11,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import ui.config.WebConfig;
+
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -29,11 +29,11 @@ public class TestBaseMobile {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.browser = BrowserstackDriver.class.getName();
+//        Configuration.browser = BrowserstackDriver.class.getName();
+        Configuration.browser = LocalDriver.class.getName();
         Configuration.pageLoadStrategy = "eager";
-        Configuration.baseUrl = config.remoteMobileUrl();
         Configuration.browserSize = null;
-        Configuration.timeout = 6000;
+        Configuration.timeout = 5000;
     }
 
     @BeforeEach
@@ -44,8 +44,8 @@ public class TestBaseMobile {
 
     @AfterEach
     public void afterEach() {
-        String sessionId = sessionId().toString();
+//        String sessionId = sessionId().toString();
         closeWebDriver();
-        help.Attach.addVideo(sessionId);
+//        help.Attach.addVideo(sessionId);
     }
 }

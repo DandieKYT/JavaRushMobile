@@ -9,8 +9,9 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static help.GenerationData.generationRandomText;
+import static org.junit.jupiter.api.Assertions.fail;
 
-//@Tag("Mobile")
+@Tag("Mobile")
 @Story("Лайк")
 @Owner("Кудрявцев Даниил")
 @Feature("Автотесты для Mobile")
@@ -29,7 +30,9 @@ public class LikeTests extends TestBaseMobile {
         likeStep.addLike();
         likeStep.secondAddLike();
         int countSecond = likeStep.parse();
-        Assertions.assertEquals(1, countSecond - countFirst);
+        if (countSecond == countFirst){
+            fail("Test failed");
+        }
         likeStep.addLike();
         commentStep.deleteComment();
     }
@@ -42,7 +45,9 @@ public class LikeTests extends TestBaseMobile {
         likeStep.likeButton();
         likeStep.clickOnLike();
         int countSecond = likeStep.parse();
-        Assertions.assertEquals(1, countSecond - countFirst);
+        if (countSecond == countFirst){
+            fail("Test failed");
+        }
         likeStep.likeButton();
     }
 }

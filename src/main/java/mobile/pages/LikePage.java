@@ -9,7 +9,7 @@ public class LikePage {
 
     public final SelenideElement addLike = $(AppiumBy.id("com.hitechrush.jaxarush:id/commentLike"));
     public final SelenideElement secondAddLike = $(AppiumBy.id("com.hitechrush.jaxarush:id/itemLikeDesc"));
-    public final SelenideElement checkLikeValue = $(AppiumBy.id("com.hitechrush.jaxarush:id/likesCount"));
+    public final SelenideElement checkLikeValue = $(AppiumBy.id("com.hitechrush.jaxarush:id/lectureLikesCount"));
     public final SelenideElement clickOnLike = $(AppiumBy.id("com.hitechrush.jaxarush:id/itemLikeDesc"));
-    public final SelenideElement likeButton = $(AppiumBy.id("com.hitechrush.jaxarush:id/likesButton"));
+    public final SelenideElement likeButton = $(AppiumBy.id("com.hitechrush.jaxarush:id/lectureLikeIcon"));
 }
