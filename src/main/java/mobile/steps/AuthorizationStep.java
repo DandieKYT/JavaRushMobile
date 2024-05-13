@@ -40,8 +40,10 @@ public class AuthorizationStep {
 
     @Step("Закрытие баннера")
     public void closeBanner() {
-        authorizationPage.closeBanner.click();
-    }
+        sleep(2000);
+        if(authorizationPage.closeBanner.has(visible))
+         authorizationPage.closeBanner.click();
+         }
 
     @Step("Нажатие на ссылку 'Sign In'")
     public void signInLink() {
