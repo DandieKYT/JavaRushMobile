@@ -41,7 +41,7 @@ public class AuthorizationStep {
     @Step("Закрытие баннера")
     public void closeBanner() {
         sleep(2000);
-        if(authorizationPage.closeBanner.has(visible))
+        while (authorizationPage.closeBanner.has(visible))
          authorizationPage.closeBanner.click();
          }
 
