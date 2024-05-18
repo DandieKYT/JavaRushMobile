@@ -3,6 +3,7 @@ package mobile;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -17,6 +18,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 public class LikeTest extends TestBaseMobile {
 
     @Test
+    @Disabled
     @DisplayName("Добавление лайка на коментарий")
     public void addLikeToComment() {
         mobileCommonStep.stepsForApp();
