@@ -19,10 +19,18 @@ public class LikeStep {
         likePage.secondAddLike.click();
     }
 
-    @Step("Получение количества лайков")
-    public int parse() {
+    @Step("Получение количества лайков комментария")
+    public int parseLikeCooment() {
         sleep(2000);
-        String getParse = likePage.checkLikeValue.getText();
+        String getParse = likePage.checkLikeValueComment.getText();
+        Integer.parseInt(getParse);
+        return Integer.parseInt(getParse);
+    }
+
+    @Step("Получение количества лайков лекции")
+    public int parseLikeLecture() {
+        sleep(2000);
+        String getParse = likePage.checkLikeValueLecture.getText();
         Integer.parseInt(getParse);
         return Integer.parseInt(getParse);
     }

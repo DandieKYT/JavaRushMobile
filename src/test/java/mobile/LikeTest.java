@@ -26,10 +26,10 @@ public class LikeTest extends TestBaseMobile {
         String actualComm = generationRandomText();
         commentStep.addSomeText(actualComm);
         commentStep.sendComment();
-        int countFirst = likeStep.parse();
+        int countFirst = likeStep.parseLikeCooment();
         likeStep.addLike();
         likeStep.secondAddLike();
-        int countSecond = likeStep.parse();
+        int countSecond = likeStep.parseLikeCooment();
         if (countSecond == countFirst){
             fail("Test failed");
         }
@@ -41,10 +41,10 @@ public class LikeTest extends TestBaseMobile {
     @DisplayName("Добавление лайка на страницу лекции")
     public void addLikeToLesson() {
         mobileCommonStep.stepsForApp();
-        int countFirst = likeStep.parse();
+        int countFirst = likeStep.parseLikeLecture();
         likeStep.likeButton();
         likeStep.clickOnLike();
-        int countSecond = likeStep.parse();
+        int countSecond = likeStep.parseLikeLecture();
         if (countSecond == countFirst){
             fail("Test failed");
         }
