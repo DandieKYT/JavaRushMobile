@@ -18,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.fail;
 public class LikeTest extends TestBaseMobile {
 
     @Test
-    @Disabled
     @DisplayName("Добавление лайка на коментарий")
     public void addLikeToComment() {
         mobileCommonStep.stepsForApp();
