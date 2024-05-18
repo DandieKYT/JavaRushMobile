@@ -11,13 +11,13 @@ import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import ui.config.WebConfig;
+
 
 import static com.codeborne.selenide.Selenide.*;
 
 public class TestBaseMobile {
 
-    protected static WebConfig config = ConfigFactory.create(WebConfig.class, System.getProperties());
+    protected static BrowserstackConfig config = ConfigFactory.create(BrowserstackConfig.class, System.getProperties());
     static boolean isRemote = Boolean.parseBoolean(System.getProperty("isRemote", config.isRemote()));
     QuizStep quizStep = new QuizStep();
     CreateAccountStep createAccountStep = new CreateAccountStep();
@@ -30,9 +30,10 @@ public class TestBaseMobile {
     @BeforeAll
     static void beforeAll() {
         Configuration.browser = BrowserstackDriver.class.getName();
+//        Configuration.browser = LocalDriver.class.getName();
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = null;
-        Configuration.timeout = 30000;
+        Configuration.timeout = 5000;
     }
 
     @BeforeEach
@@ -43,8 +44,8 @@ public class TestBaseMobile {
 
     @AfterEach
     public void afterEach() {
-        String sessionId = sessionId().toString();
+//        String sessionId = sessionId().toString();
         closeWebDriver();
-        help.Attach.addVideo(sessionId);
+//        help.Attach.addVideo(sessionId);
     }
 }

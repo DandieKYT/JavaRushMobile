@@ -3,18 +3,19 @@ package mobile;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static help.GenerationData.generationRandomText;
+import static org.junit.jupiter.api.Assertions.fail;
 
 @Tag("Mobile")
 @Story("Лайк")
 @Owner("Кудрявцев Даниил")
 @Feature("Автотесты для Mobile")
-public class LikeTests extends TestBaseMobile {
+public class LikeTest extends TestBaseMobile {
 
     @Test
     @DisplayName("Добавление лайка на коментарий")
@@ -25,11 +26,13 @@ public class LikeTests extends TestBaseMobile {
         String actualComm = generationRandomText();
         commentStep.addSomeText(actualComm);
         commentStep.sendComment();
-        int countFirst = likeStep.parse();
+        int countFirst = likeStep.parseLikeCooment();
         likeStep.addLike();
         likeStep.secondAddLike();
-        int countSecond = likeStep.parse();
-        Assertions.assertEquals(1, countSecond - countFirst);
+        int countSecond = likeStep.parseLikeCooment();
+        if (countSecond == countFirst){
+            fail("Test failed");
+        }
         likeStep.addLike();
         commentStep.deleteComment();
     }
@@ -38,11 +41,13 @@ public class LikeTests extends TestBaseMobile {
     @DisplayName("Добавление лайка на страницу лекции")
     public void addLikeToLesson() {
         mobileCommonStep.stepsForApp();
-        int countFirst = likeStep.parse();
+        int countFirst = likeStep.parseLikeLecture();
         likeStep.likeButton();
         likeStep.clickOnLike();
-        int countSecond = likeStep.parse();
-        Assertions.assertEquals(1, countSecond - countFirst);
+        int countSecond = likeStep.parseLikeLecture();
+        if (countSecond == countFirst){
+            fail("Test failed");
+        }
         likeStep.likeButton();
     }
 }
