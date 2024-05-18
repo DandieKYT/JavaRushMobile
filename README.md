@@ -80,31 +80,6 @@
 <a href="https://javarush.com/"><code><img width="5%" title="Steam" src="https://yt3.googleusercontent.com/ytc/APkrFKYPRuYZhFR5vGnF2c6htR6815HiRYLmhikCqrjR7w=s900-c-k-c0x00ffffff-no-rj"></code></a> Проект по автоматизации тестирования для Java-Rush, — практический онлайн-курс по обучению Java. :star2:
 
 <a name="ImplementedСhecks"><h2>:heavy_check_mark:  Реализованные проверки:</h2></a>
-<a id="cases-ui"></a>UI-кейсы:
-
-:heavy_check_mark: Авторизация на сайте</br>
-
-:heavy_check_mark: Запись на курс по JAVA </br>
-
-:heavy_check_mark: Открытие страниц в Telegram/Youtube </br>
-
-:heavy_check_mark: Поиск пользователей</br>
-
-:heavy_check_mark: Открытие страниц Отзывы/О нас и проверка их содержимого</br>
-
-:heavy_check_mark: Загрузка фотографии в профиль</br>
-
-<a id="cases-api"></a>API-кейсы:
-
-:heavy_check_mark: Открытие раздела "Игры" '</br>
-
-:heavy_check_mark: Открытие страницы активности пользователей</br>
-
-:heavy_check_mark: Открытие раздела лекций</br>
-
-:heavy_check_mark:Открытие раздела "Пользователи"</br>
-
-:heavy_check_mark:Открытие JSON сайта</br>
 
 <a id="cases-mobile"></a>Mobile-кейсы:
 
