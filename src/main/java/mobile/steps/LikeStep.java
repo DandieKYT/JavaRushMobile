@@ -3,6 +3,8 @@ package mobile.steps;
 import io.qameta.allure.Step;
 import mobile.pages.LikePage;
 
+import static com.codeborne.selenide.Selenide.sleep;
+
 public class LikeStep {
 
     LikePage likePage = new LikePage();
@@ -19,6 +21,7 @@ public class LikeStep {
 
     @Step("Получение количества лайков")
     public int parse() {
+        sleep(2000);
         String getParse = likePage.checkLikeValue.getText();
         Integer.parseInt(getParse);
         return Integer.parseInt(getParse);

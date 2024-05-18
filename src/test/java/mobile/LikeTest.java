@@ -3,7 +3,6 @@ package mobile;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Story;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -15,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 @Story("Лайк")
 @Owner("Кудрявцев Даниил")
 @Feature("Автотесты для Mobile")
-public class LikeTests extends TestBaseMobile {
+public class LikeTest extends TestBaseMobile {
 
     @Test
     @DisplayName("Добавление лайка на коментарий")
