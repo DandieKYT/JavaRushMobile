@@ -120,7 +120,6 @@ gradle clean Mobile
 ```
 clean
 ${TASK}
-
 ```
 <a name="Allure_report"><h2>:chart_with_downwards_trend: [Allure Report](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/8/allure/)</h2></a>
 
