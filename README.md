@@ -152,35 +152,23 @@ ${TASK}
 ![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/60c25678-547f-47fb-987b-91d71f87dcb2)
 
 
-<a name="Integration_Brawserstack"><h2>:bar_chart: Примеры сборок в [Browserstack](https://app-automate.browserstack.com/dashboard/v2/builds/a30dac4f7670d214d2a0cfda3716ec3a802ad3e2/sessions/e55b3ffbab9e70fd98626e7518989f663ab82f67)</h2></a>
+<a name="Integration_Brawserstack"><h2>:bar_chart: Примеры сборок в [Browserstack](https://app-automate.browserstack.com/dashboard/v2/builds/944c5a8a6f8c320d9570d9732bf4dc0fc08f5297/sessions/b99ee4d6bf43043f38d1dc7069f4a13b6de4b01d)</h2></a>
 
 - <a name="Integration_Brawserstack"><h3>Экран с результатами запуска тестов</h3></a>
 
-![This is an image](design/pictures/Brawserstack.png)
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/9d1d399f-9455-407a-86c3-7a6fac52b3ef)
 
- <a name="Integration_Jira"><h2>:chart_with_upwards_trend: Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-675)</h2></a>
 
-- <a name="Page_Jira"><h3>Страница с задачей в [Jira](https://jira.autotests.cloud/browse/HOMEWORK-675)<h3></a>
+<a name="Telegram"><h2>:iphone: Отчет в Telegram</h2></a>
 
-![This is an image](design/pictures/jira_task.png)
-
-<a name="Telegram"><h2>:iphone: Отчет в [Telegram](https://t.me/+wAG3zdRUXCxmNWNi)</h2></a>
-
-![This is an image](design/pictures/telegram.png)
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/740741c0-7f02-4125-9da8-826e01e55fe8)
 
 <a name="Video"><h2>:movie_camera: Видео примеры прохождения тестов</h2></a>
 
-- <a name="Video1"><h3>Пример запуска тестов через selenoid</h3></a>
+- <a name="Video2"><h3>Пример запуска тестов через [Browserstack](https://app-automate.browserstack.com/dashboard/v2/builds/944c5a8a6f8c320d9570d9732bf4dc0fc08f5297/sessions/b99ee4d6bf43043f38d1dc7069f4a13b6de4b01d)</h3></a>
 
-https://github.com/KatasonovaMasa/Steam/assets/44576709/127ae60c-9c68-4e27-9f70-06c7aef69da7
-
-- <a name="Video2"><h3>Пример запуска тестов через [Browserstack](https://app-automate.browserstack.com/dashboard/v2/builds/a30dac4f7670d214d2a0cfda3716ec3a802ad3e2/sessions/e55b3ffbab9e70fd98626e7518989f663ab82f67)</h3></a>
-
-https://github.com/KatasonovaMasa/Steam/assets/44576709/35a05427-a8b1-4941-abc5-2cf98db8b66e
+https://github.com/DandieKYT/JavaRushMobile/assets/75677738/6b99ce7b-d03b-4451-bf13-06a4ca09b2db
 
 
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
 
 
