@@ -94,29 +94,20 @@
 :heavy_check_mark: Открытие разделов Course/Java и проверка их содержимого</br>
 
 
-<a name="buildInJenkins" href="https://jenkins.autotests.cloud/job/JavaRush/"><h2>👷‍♂️ Сборки в [Jenkins](https://jenkins.autotests.cloud/job/JavaRush/)<h2></a>
+<a name="buildInJenkins" href="https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/"><h2>👷‍♂️ Сборки в [Jenkins](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/)<h2></a>
 - <a name="buildInJenkins1"><h5>Страница сборки job в [Jenkins](https://jenkins.autotests.cloud/job/JavaRush/55/)</h5></a>
 
-![image](https://github.com/DandieKYT/JavaRush/assets/75677738/04b8b36b-a78a-47b5-93ea-4fe10cc7f549)
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/59ef2cc8-bac9-4998-9910-eaf7f5751823)
 
 
-- <a name="buildInJenkins2"><h5>Главный экран со списком job в [Jenkins](https://jenkins.autotests.cloud/job/Students/job/DiplomaSteam/)</h5></a>
+- <a name="buildInJenkins2"><h5>Главный экран со списком job в [Jenkins](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/)</h5></a>
 
-![This is an image](design/pictures/jenkins2.png)
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/7d3a579e-9b43-4bdd-bbed-8a5f407a6d0e)
+
 
 <a name="terminal"><h2>:computer: Параметры сборки в Jenkins</h2></a>
 
 Сборка в Jenkins
-
-- BROWSER (браузер, по умолчанию chrome)
-
-- BROWSER_VERSION (версия браузера, по умолчанию 100.0)
-
-- BROWSER_SIZE (размер окна браузера, по умолчанию 2500х1080)
-
-- BASE_URL (какой адрес открывать для запуска тестов)
-
-- REMOTE_URL (где запускать тесты)
 
 - TASK (с какими тегами запускать тесты)
 
