@@ -8,16 +8,12 @@
 + [Описаниe](#Description)
 + [Проект](#Project)
 + [:heavy_check_mark:  Реализованные проверки:](#ImplementedСhecks)  
-  - <a href="#cases-ui"> UI
-  - <a href="#cases-api"> API
   - <a href="#cases-mobile"> Mobile
 + [👷‍♂️ Сборка в Jenkins](#buildInJenkins)
     + [Страница сборки job в Jenkins](#buildInJenkins1)
     + [Главный экран со списком job в Jenkins](#buildInJenkins2)
 + [🖥 Параметры сборки в Jenkins](#terminal)
 + [:computer: Запуск из терминала](#Launch_from_terminal)
-  - <a href="#console-ui"> UI
-  - <a href="#console-api"> API
   - <a href="#console-mobile"> Mobile
 + [:chart_with_downwards_trend: Allure Report](#Allure_report)
     + [Главный экран отчета в Allure Report](#Allure_report1)
@@ -30,7 +26,6 @@
   + [Экран с результатами запуска тестов](#Integration_Brawserstack)
 + [:iphone: Отчет в Telegram](#Telegram)
 + [:movie_camera: Видео примеры прохождения тестов](#Video)
-    + [Пример запуска тестов через selenoid](#Video1)
     + [Пример запуска тестов через Browserstack](#Video2)
 
 <h2> :trophy:  Мои инструменты и технологии:</h2>
