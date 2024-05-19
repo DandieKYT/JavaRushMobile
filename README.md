@@ -95,7 +95,7 @@
 
 
 <a name="buildInJenkins" href="https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/"><h2>👷‍♂️ Сборки в [Jenkins](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/)<h2></a>
-- <a name="buildInJenkins1"><h5>Страница сборки job в [Jenkins](https://jenkins.autotests.cloud/job/JavaRush/55/)</h5></a>
+- <a name="buildInJenkins1"><h5>Страница сборки job в [Jenkins](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/8/)</h5></a>
 
 ![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/59ef2cc8-bac9-4998-9910-eaf7f5751823)
 
