@@ -113,17 +113,6 @@
 
 
 <a name="Launch_from_terminal"><h2>:computer: Запуск из терминала</h2></a>
-### <a id="console-ui"></a>Локальный запуск UI-тестов
-
-```
-gradle clean UI
-```
-
-### <a id="console-api"></a>Локальный запуск API-тестов
-
-```
-gradle clean Api
-```
 
 ### <a id="console-mobile"></a>Локальный запуск Mobile-тестов
 
@@ -136,13 +125,7 @@ gradle clean Mobile
 ```
 clean
 ${TASK}
-clean
-${TASK}
--DbaseUrl=${BASE_URL}
--DbrowserSize=${BROWSER_SIZE}
--Dbrowser=${BROWSER}
--DbrowserVersion="${BROWSER_VERSION}"
--DremoteUrl=${REMOTE_URL}
+
 ```
 <a name="Allure_report"><h2>:chart_with_downwards_trend: [Allure Report](https://jenkins.autotests.cloud/job/Students/job/DiplomaSteam/178/allure/)</h2></a>
 
