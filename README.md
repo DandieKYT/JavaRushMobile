@@ -74,7 +74,7 @@
 `Appium` - используются для управления мобильным устройством с помощью веб драйвера\
 `Browserstack` - для удаленного запуска мобильных автотестов\
 `Android_Studio` - для эмулятора мобильного устройства и получения данных для подключения к apk\
-.
+
 
 <a name="Project"><h2>Проект</h2></a>
 <a href="https://javarush.com/"><code><img width="5%" title="Steam" src="https://yt3.googleusercontent.com/ytc/APkrFKYPRuYZhFR5vGnF2c6htR6815HiRYLmhikCqrjR7w=s900-c-k-c0x00ffffff-no-rj"></code></a> Проект по автоматизации тестирования для Java-Rush, — практический онлайн-курс по обучению Java. :star2:
