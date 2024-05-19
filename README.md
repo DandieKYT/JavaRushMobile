@@ -122,15 +122,17 @@ clean
 ${TASK}
 
 ```
-<a name="Allure_report"><h2>:chart_with_downwards_trend: [Allure Report](https://jenkins.autotests.cloud/job/Students/job/DiplomaSteam/178/allure/)</h2></a>
+<a name="Allure_report"><h2>:chart_with_downwards_trend: [Allure Report](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/8/allure/)</h2></a>
 
-- <a name="Allure_report1"><h3>Главный экран отчета в [Allure Report](https://jenkins.autotests.cloud/job/Students/job/DiplomaSteam/178/allure/#)</h3></a>
+- <a name="Allure_report1"><h3>Главный экран отчета в [Allure Report](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/8/allure/)</h3></a>
 
-![This is an image](design/pictures/allure.png)
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/e9057cba-ca89-46f4-b905-ba90b4694d48)
 
--  <a name="Allure_report2"><h3>Страница с проведенными тестами в [Allure Report](https://jenkins.autotests.cloud/job/Students/job/DiplomaSteam/178/allure/#suites/5c6961ccda11b989b711be0fa000af14/e117dc1bb946ebe9/)</h3></a>
 
-![This is an image](design/pictures/allure1.png)
+-  <a name="Allure_report2"><h3>Страница с проведенными тестами в [Allure Report](https://jenkins.autotests.cloud/job/JavaRush1/job/JavaRushMobile1/8/allure/#suites/ed674b31b140dac95fd14515ce4c23f5/7ba64c392ddb6972/)</h3></a>
+
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/f4fd4721-7b78-4fb5-b8d3-ea38861bcf41)
+
 
 <a name="Integration_Allure_TestOps"><h2>:bar_chart: Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/24564)</h2></a>
 
