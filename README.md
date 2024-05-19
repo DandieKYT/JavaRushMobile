@@ -134,20 +134,23 @@ ${TASK}
 ![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/f4fd4721-7b78-4fb5-b8d3-ea38861bcf41)
 
 
-<a name="Integration_Allure_TestOps"><h2>:bar_chart: Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/24564)</h2></a>
+<a name="Integration_Allure_TestOps"><h2>:bar_chart: Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/39146)</h2></a>
 
 - <a name="Integration_Allure_TestOps1"><h3>Экран с результатами запуска тестов</h3></a>
 
-![This is an image](design/pictures/allureTestsOp.png)
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/00f9c0b3-75e5-4e85-af72-de9602ef1541)
 
 
-- <a name="Integration_Allure_TestOps2"><h3>Страница с тестами в [TestOps](https://allure.autotests.cloud/project/2188/test-cases/20742?treeId=4235)</h3></a>
 
-![This is an image](design/pictures/allureTestsOp1.png)
+- <a name="Integration_Allure_TestOps2"><h3>Страница с тестами в [TestOps](https://allure.autotests.cloud/launch/39146/tree/636860?search=W3siaWQiOiJzdGF0dXMiLCJ0eXBlIjoidGVzdFN0YXR1c0FycmF5IiwidmFsdWUiOlsicGFzc2VkIl19XQ%3D%3D&treeId=6806)</h3></a>
 
-- <a name="Integration_Allure_TestOps3"><h3>Страница с тестами из Launches в [Allure TestOps](https://allure.autotests.cloud/launch/24564/tree/369247?treeId=4235)</h3></a>
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/f091b250-00e9-4317-a5ac-301a9829d4f3)
 
-![This is an image](design/pictures/allureTestsOp2.png)
+
+- <a name="Integration_Allure_TestOps3"><h3>Страница с тестами из Launches в [Allure TestOps](https://allure.autotests.cloud/launch/39146/tree/636862?search=W3siaWQiOiJzdGF0dXMiLCJ0eXBlIjoidGVzdFN0YXR1c0FycmF5IiwidmFsdWUiOlsicGFzc2VkIl19XQ%3D%3D&treeId=6806)</h3></a>
+
+![image](https://github.com/DandieKYT/JavaRushMobile/assets/75677738/60c25678-547f-47fb-987b-91d71f87dcb2)
+
 
 <a name="Integration_Brawserstack"><h2>:bar_chart: Примеры сборок в [Browserstack](https://app-automate.browserstack.com/dashboard/v2/builds/a30dac4f7670d214d2a0cfda3716ec3a802ad3e2/sessions/e55b3ffbab9e70fd98626e7518989f663ab82f67)</h2></a>
 
